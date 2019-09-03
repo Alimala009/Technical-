@@ -1,0 +1,16 @@
+[package]
+name = "rusty-technical"
+version = "0.0.1"
+authors = ["David Holtz <david.richard.holtz@gmail.com>"]
+edition = "2018"
+description = "Auto generate technical analysis on data using ta-lib. Data is formatted for use with rusty-backtest"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/drbh/rusty-technical"
+
+
+[lib]
+name = "rusty_technical"
+path = "src/lib.rs"
+
+[dependencies]
+ta-lib-wrapper = "0.1.1"
