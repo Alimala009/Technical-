@@ -13,4 +13,4 @@ name = "rusty_technical"
 path = "src/lib.rs"
 
 [dependencies]
-ta-lib-wrapper = "0.1.1"
+ta-lib-wrapper = "0.2.0"
